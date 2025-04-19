@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>blocksi.net</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/block_ext.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico">
+</head>
+
+<body>
+  <div class="content error-page">
+    <div class="container-fluid">
+      <div>&nbsp;</div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="text-center" style="font-size:50px;">
+            <img class="m-10" src="img/warning.png" alt="">
+            <b>WARNING</b>
+          </div>
+          <hr>
+          <div>&nbsp;</div>
+          <h4 class="center bold">Requested web page might contain inappropriate content</h4>
+          <div style="margin-left:25%;">
+            <div class="span8">
+              <div class="error">
+                <strong>URL: </strong>
+                <a id="url_link" target=_blank></a>
+                <br/>
+                <strong>Category: </strong>
+                <span id="cat"></span>
+              </div>
+              <hr>
+              <div>&nbsp;</div>
+            </div>
+          </div>
+          <div class="text-center">
+            <h4><p>Do you want to continue?</p></h4>
+            <button type="button" id="btn_yes" class="btn btn-default">Yes</button>
+            <button type="button" id="btn_no" class="btn btn btn-default">No</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- container-->
+  <!-- FOOTER STARTS-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <div class="row">
+            <hr>
+            <p class="text">Copyright © 2016 |
+              <a href="https://www.blocksi.net" target="_blank">
+                <purple>blocksi.net</purple>
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/categories.js"></script>
+  <script src="js/warning.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>
